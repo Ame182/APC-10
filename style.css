@@ -94,7 +94,7 @@ header h1 {
  header h1 {
    font-size: 4em;
    text-align: center;
-   padding: 50px 70px 30px 70px;
+   padding: 50px 60px 30px 60px;
   }
 }
 
@@ -109,6 +109,13 @@ header h1 {
 .navbar-toggle{
   	margin-right: -140px;
   }
+ .fecha	{
+	align-items: center;
+	}
+.i__comment{
+	display: none;
+	width: 80px;
+	}
 }
 
 .navbar-brand{
@@ -122,6 +129,7 @@ header i{
 }
 
 
+
 /* Comienza Seccion 2 */
 .section2{
 	width: 100vw;
@@ -131,10 +139,15 @@ header i{
 .section2 .fecha i{
 	font-size: 1em;
 	color: #707070;
+	padding: 5px;
+	border-style: solid;
+	border-width: .5px;
+	border-radius: 100%;
 }
 
 .section2 .fecha{
 	font-family: 'Playfair Display';
+	padding-left: 5px;
 	
 }
 
@@ -145,4 +158,62 @@ header i{
 
 .section2 p .resaltado{
 	color: #D56C6A;
+}
+
+.iconoslow{
+	height: 200px;
+	padding: 50px;
+}
+
+.i__heart--grey {
+	float: left;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 100%;
+	border-color: #707070;
+	border-style: solid;
+	border-width: .5px;
+	padding: 8px;
+	background-color: #707070;
+	margin: 4px;
+}
+
+.i__share--grey {
+	float: left;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 100%;
+	border-color: #707070;
+	border-style: solid;
+	border-width: .5px;
+	padding: 8px;
+	background-color: #707070;
+	margin: 4px;
+}
+
+button {
+	float: left;
+	font-size: 1.5em;
+	color: white;
+	padding: 8px;
+	background-color: #707070;
+	margin-left: 10px;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: -5px;
+
+}
+
+.i__comment--long{
+	float: left;
+	font-size: 1.5em;
+}
+
+.i__comment{
+	float: left;
+	padding-left: 5px;
+	font-family: 'Playfair Display';
+	font-size: 16px;
+	color: white;
+	padding-top: 5px;
+
 }
