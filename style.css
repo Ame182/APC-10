@@ -1,0 +1,148 @@
+/* Global Styles */
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+p, li, a, small {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Font hierarchy */
+
+h1 {
+ font-size: 3em;
+}
+
+h2 {
+ font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+@media (min-width : 767px) {
+
+  h1 {
+   font-size: 1em;
+  }
+
+  h2 {
+   font-size: 1.625em;
+  }
+
+  h3 {
+    font-size: 1.375em;
+  }
+
+}
+
+/* Global Styles termina */
+
+.container-fluid{
+	background-color: #121619;
+	border: 0;
+}
+
+.navbar-header{
+	width: 300px;
+	padding: 5px;
+}
+
+.navbar-brand {
+	background: url(assets/img/logo.png) no-repeat center / auto 100% transparent;
+	text-indent: -10000px;
+	width: 100%;
+	margin-left: 6em;
+
+}
+
+.navbar {
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-top: 20px;
+	color: white;
+}
+
+/* Comienza el Header*/ 
+
+header {
+	height: 80vh;
+	margin-top: -20px;
+	background: url(assets/img/post-image.jpg) no-repeat center / cover transparent;
+	text-align: center;
+	padding-top: 200px;
+}
+
+header h1 {
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+@media (max-width : 1280px) {
+
+ header h1 {
+   font-size: 4em;
+   text-align: center;
+   padding: 50px 70px 30px 70px;
+  }
+}
+
+@media (max-width : 767px) {
+
+ header h1 {
+   font-size: 3em;
+   text-align: center;
+   padding: 80px 60px 30px 60px;
+  }
+
+.navbar-toggle{
+  	margin-right: -140px;
+  }
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+header i{
+	margin-top: 100px;
+	font-size: 3em;
+	color: white;
+}
+
+
+/* Comienza Seccion 2 */
+.section2{
+	width: 100vw;
+	padding-top: 20px;
+}
+
+.section2 .fecha i{
+	font-size: 1em;
+	color: #707070;
+}
+
+.section2 .fecha{
+	font-family: 'Playfair Display';
+	
+}
+
+.section2 p{
+	color: #707070
+	font-weight: light;
+}
+
+.section2 p .resaltado{
+	color: #D56C6A;
+}
