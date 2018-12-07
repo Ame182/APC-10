@@ -226,7 +226,7 @@ button {
 	align-content: center;
 	padding: 0;
 }
-.section3__container i{
+.row__first i{
 	float: left;
 	font-size: 1.5em;
 	color: #707070;
@@ -279,6 +279,8 @@ button {
 	background-color: #cccccc;
 	margin-top: 250px;
 }
+.row__tips i {
+
 
 @media (max-width : 767px){
 	.row__second__inner.col-md-5.col-md-offset-1 p{
